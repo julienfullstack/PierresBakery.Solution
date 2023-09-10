@@ -11,6 +11,12 @@ namespace PierresBakery.Models
             Quantity = quantity;
         }
 
+        public decimal CalculateTotalQuantity(){
+            int freeLoaves = Quantity / 2;
+            int totalQuantity = Quantity + freeLoaves;
+            return totalQuantity;
+        }
+
         public decimal CalculateTotalPrice()
         {
             int setsOfThree = Quantity / 3; 
