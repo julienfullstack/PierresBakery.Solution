@@ -13,9 +13,13 @@ namespace PierresBakery.Models
 
         public decimal CalculateTotalPrice()
         {
-            int fullPriceItems = Quantity / 2;
-            int freeItems = Quantity % 2;
-            return (fullPriceItems + freeItems) * 5;
+            int setsOfThree = Quantity / 3; 
+            int remainingLoaves = Quantity % 3; 
+
+            decimal totalPrice = setsOfThree * 2 * 5; 
+            totalPrice += remainingLoaves * 5; 
+
+            return totalPrice;
         }
     }
 }

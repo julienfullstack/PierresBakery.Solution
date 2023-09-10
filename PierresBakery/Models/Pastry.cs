@@ -11,11 +11,14 @@ namespace PierresBakery.Models
           Quantity = quantity;
       }
 
-      public decimal CalculateTotalPrice()
-      {
-          int fullPriceItems = Quantity / 3 * 2;
-          int extraItems = Quantity % 3;
-          return (fullPriceItems + extraItems) * 2;
-      }
-  }
+       public decimal CalculateTotalPrice()
+        {
+            int setsOfFour = Quantity / 4; 
+            int remainingPastries = Quantity % 4; 
+            decimal totalPrice = setsOfFour * 3 * 2;
+            totalPrice += remainingPastries * 2; 
+
+            return totalPrice;
+        }
+    }
 }
