@@ -1,7 +1,15 @@
-class Program
+using System;
+using PierresBakery.Models;
+
+
+namespace PierresBakery
 {
-  static void Main()
+  public class Program
   {
-    // We'll add user interface code here.
+    public static void Main()
+    {
+      Console.WriteLine("Welcome to Pierre's Bakery!");
+    }
   }
+  
 }
