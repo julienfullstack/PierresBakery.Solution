@@ -22,6 +22,7 @@ namespace PierresBakery.Models
             Pastry pastry = new Pastry(pastryQuantity);
             Console.WriteLine("Thank you for your order!");
             Console.WriteLine("You ordered " + bread.Quantity + " loaves of bread and " + pastry.Quantity + " pastries.");
+            Console.WriteLine("Your total quantity is " + bread.CalculateTotalQuantity() + " loaves of bread and " + pastry.CalculateTotalQuantity() + " pastries.");
             Console.WriteLine("Your total is $" + bread.CalculateTotalPrice() + " for bread and $" + pastry.CalculateTotalPrice() + " for pastries.");
             Console.WriteLine("Your grand total is $" + (bread.CalculateTotalPrice() + pastry.CalculateTotalPrice()) + ".");
         }
