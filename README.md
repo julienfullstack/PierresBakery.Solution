@@ -14,7 +14,7 @@
 * _Visual Studio Code_
 
 ## Description
-####_A website which allows users to order pastries and loaves of bread through the console line, with consideration to their promotions_
+#### _A website which allows users to order pastries and loaves of bread through the console line, with consideration to their promotions_
 
 ## Setup/Installation Requirements
 * _Clone this respository to your desktop_
@@ -28,3 +28,9 @@
 ## Known Bugs
 
 * _No known bugs_
+
+## License
+
+_[MIT](https://choosealicense.com/licenses/mit/)_
+
+Copyright (c) _2023_ _Julien Lenaz_
