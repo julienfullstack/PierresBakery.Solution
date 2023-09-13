@@ -20,9 +20,9 @@
 * _Clone this respository to your desktop_
 * _Navigate to the top level of the directory_
 * _Open in your code editor_
-*_In the PierreBakery.Tests dictionary, restore with $ dotnet restore_
-*_To run tests, use $ dotnet test in the PierresBakery.Tests directory_
-*_To run the program, open the terminal and enter $ dotnet run in the PierresBakery directory_
+* _In the PierreBakery.Tests dictionary, restore with $ dotnet restore_
+* _To run tests, use $ dotnet test in the PierresBakery.Tests directory_
+* _To run the program, open the terminal and enter $ dotnet run in the PierresBakery directory_
 
 
 ## Known Bugs
