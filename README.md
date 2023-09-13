@@ -8,10 +8,10 @@
 ## Technologies Used
 
 * _C#_
-*_MSTest_
-*_.NET_
-*_Git_
-*_Visual Studio Code_
+* _MSTest_
+* _.NET_
+* _Git_
+* _Visual Studio Code_
 
 ## Description
 ####_A website which allows users to order pastries and loaves of bread through the console line, with consideration to their promotions_
